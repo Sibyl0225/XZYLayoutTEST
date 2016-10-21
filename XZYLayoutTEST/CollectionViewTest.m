@@ -37,7 +37,7 @@
 -(void)pushToMainViewController{
    
     MainViewCtrl *mainCtrl = [[MainViewCtrl alloc]init];
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIControlStateNormal target:nil action:nil];
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     [self.navigationController pushViewController:mainCtrl animated:YES];
 }
 @end
